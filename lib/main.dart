@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vision/Screens/HomePage.dart';
 
-import 'Utils/HomeSlider1.dart';
+import 'Utils/HomeDashBoard.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

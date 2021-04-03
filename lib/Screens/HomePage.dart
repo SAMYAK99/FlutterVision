@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vision/Utils/Carousel.dart';
-import 'package:flutter_vision/Utils/HomeSlider1.dart';
-import 'package:flutter_vision/Utils/HomeSlider2.dart';
+import 'package:flutter_vision/Utils/HomeDashBoard.dart';
+
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
@@ -46,7 +46,6 @@ class _HomePageState extends State<HomePage> {
               'Machine Learning Classifier 2',
               style: GoogleFonts.mcLaren(color: Colors.black54, fontSize: 18),
             ),
-            HomeSlider2(),
           ],
         ),
       ),
