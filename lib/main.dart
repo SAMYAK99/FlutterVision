@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_vision/Screens/SplashScreen.dart';
+import 'package:flutter_vision/Screens/HomePage.dart';
 
-void main() {
+import 'Utils/HomeSlider1.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // cameras = await availableCameras();
+
   runApp(MyApp());
 }
 
@@ -13,8 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SplashScreen(),
-      debugShowCheckedModeBanner: false,
+      home: Scaffold(body: HomeSlider1()),
     );
   }
 }
