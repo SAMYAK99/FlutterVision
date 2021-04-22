@@ -2,7 +2,7 @@
 
 Collection of Various Applications of Machine Learning and Deep Learning using Flutter and TensorFlow Lite.
 
-#Tasks
+# Tasks
 * ✅ Cat and Dog Classifier
 * ✅ Face Mask Detection
 * ✅ Cat breed Classifier
